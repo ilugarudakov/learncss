@@ -2,14 +2,16 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>MyZoo</title>
+    <title>Зоопарк-главная</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+  <div class="wrapper">
+    <header><h1>Собственно зоопарк</h1></header>
     <div class="container">
-        <h1>Собственно зоопарк</h1>
-        
-        <div class="menu">
+      <div class="container-row">
+
+        <aside class="left-panel">
             <a href="about\about-zoo.html">Про зоопарк</a><br />
             <a href="animals\birds\parrot.html">Попугай </a><br />
             <a href="animals\birds\pinguin.html">Пингвин</a><br />
@@ -19,11 +21,24 @@
             <a href="animals\mammals\cat.html">Кот</a><br />
             <a href="animals\mammals\dog.html">Пес</a><br />
             <a href="animals\mammals\elephant.html">Слон</a><br />
-            
-        </div>
-        <div class="img">
-            <img src="img\zoo.jpg" alt="zoo">
-        </div>
+        </aside>
+
+          <main>
+            <p>Контент сайта, много контента, так много, что не поместится в 1 строку.</p>
+
+            <div class="img-container">
+              <img src="img\zoo.jpg" alt="zoo">
+              <span>Наш зоопарк<span>
+            </div>
+          </main>
+
+      </div>
     </div>
- </body>
+    <footer>Подвал сайта
+      <p>Телефон: 552552 </p>
+      <p>Адрес: м.Вінниця, Тарногородського 1 </p>
+    </footer>
+  </div>
+
+</body>
 </html>

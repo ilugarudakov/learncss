@@ -1,9 +1,46 @@
-body{
-    background-color: silver;
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 24px;
 }
-.container{
-    width: 1024px;
-    margin: 50 auto;
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px, solid;
+body {
+  background-color: silver;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 560px;
+}
+header{
+  background: yellow;
+  text-align: center;
+
+}
+.container {
+  display: table;
+}
+.container-row{
+  display: table-row;
+}
+.left-panel{
+  display: table-cell;
+  width: 150px;
+}
+main{
+  display: table-cell;
+
+}
+.img-container{
+
+}
+img{
+  height: 150px;
+  width: auto;
+  display: table-cell;
+
+
+}
+footer{
+  background: orange;
+  text-align: right;
 }
