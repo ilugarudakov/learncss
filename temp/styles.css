@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0; }
+
+.clear {
+  clear: both; }
+
+body {
+  bacground: silver;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif; }
+
+.wrapper {
+  width: 1800px;
+  height: 900px;
+  background: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.container {
+  background: rgba(255, 0, 0, 0);
+  width: 1720px;
+  height: 640px;
+  position: relative;
+  top: 200px;
+  left: 50px; }
+
+.section1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 510px;
+  height: 640px;
+  background: rgba(0, 255, 0, 0); }
+
+.section2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 640px;
+  margin-left: 50px;
+  background: rgba(0, 0, 255, 0); }
+
+.ie1 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-color: #00AEEA;
+  background-image: url(img/ie.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  text-align: center; }
+
+.centerBotText {
+  color: white;
+  position: relative;
+  top: 95px;
+  font-size: 12px; }
+
+.leftBotText {
+  color: white;
+  position: relative;
+  top: 95px;
+  left: 20px;
+  font-size: 12px; }
+
+.shop1 {
+  vertical-align: top;
+  margin-left: 10px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-color: #F57720;
+  background-image: url(img/shop.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  text-align: left; }
+
+.news1 {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: #E89C15;
+  background-image: url(img/rss.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: left, center;
+  text-align: left; }
+
+.centerText {
+  display: block;
+  color: white;
+  position: relative;
+  left: 110px;
+  top: 40px;
+  font-size: 24px; }
+
+.folder1 {
+  vertical-align: top;
+  margin-top: 10px;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  background-color: #0E9254;
+  background-image: url(img/folder.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 15% 90%;
+  text-align: left; }
+
+.centerLittleText {
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  font-size: 12px; }
+
+.cp1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 120px;
+  height: 120px;
+  background-color: #00AEEA;
+  background-image: url(img/cp.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  text-align: center; }
+
+.tweet1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: #013F7C;
+  background-image: url(img/at.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: 9%, center;
+  text-align: left; }
+
+.centerText2 {
+  display: block;
+  color: white;
+  position: relative;
+  left: 110px;
+  top: 40px;
+  font-size: 20px; }
+
+.desctop1 {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: #013F7C;
+  background-image: url(img/desctop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: left; }
+
+.stocks1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: #61AE08;
+  background-image: url(img/stocks.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: 9%, center;
+  text-align: left; }
+
+.build1 {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: yellow;
+  background-image: url(img/build.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  text-align: left; }
+
+.weather1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: #00AEEA;
+  background-image: url(img/weather.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: 9%, center;
+  text-align: left; }
+
+.socials {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 120px;
+  background-color: #CE323E;
+  background-image: url(img/socials.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  text-align: left; }
+
+.visualStudio2 {
+  vertical-align: top;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  background-color: #119656;
+  background-image: url(img/vs.png);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: 15% 90%;
+  text-align: left; }
+
+.cprompt {
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  background-color: #119656;
+  background-image: url(img/commandPrompt.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: 15% 90%;
+  text-align: left; }
+
+/*# sourceMappingURL=styles.css.map */
